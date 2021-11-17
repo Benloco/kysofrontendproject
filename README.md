@@ -137,17 +137,52 @@ Within the download you'll find the following directories and files, logically g
  #### footer folder
     The footer.js file exports the footer component. The footer component is currently not in use.
  
- ### loading
+ #### loading
      This is an activity indicator created to tell the user of an ongoing activity like saving or loading events.
      It is exported from the loading.js file and import into several components in the app where it is needed.
      
  #### navbar folder
    As the name suggests, it contains the navigation bar exported from the navbar.js file into the _document.js file.
    The navbar component has the nav item dashboard which navigates you to the dashboard on click to view the reports.
-   
+ 
+ #### redux
+ * Actions<br/>
+     The various redux actions describing the events that happened in the application for getting both the reports and socials are implemented in the reportActions.js and socialActions.js
+ * ReportsActions.js <br/>
+       getReports() - this disptaches the fetched data (reports) to the reducer.<br/>
+       loadReport() - mimics the loading action before the data is recieved to the store.<br/>
+       failedReports() -  only gets executed when there's an error in fetching the data from the API.<br/>
+       fetchReports()- This is dipatched from the _app.js file.<br/>
+       savingEditedReports() - <br/>
+       editReportFailed()- gets called when there's an error whilst saving the edited report <br/>
+       editReports() - makes the API PUT request to save the editted reports. It is dispatched from the edit.js file.
+       
+ * SocialActions.js<br/>
+       getSocials() - this disptaches the fetched data (socials) to the reducer. <br/> 
+       loadSocials() - mimics the loading action before the data is recieved to the store.<br/>
+       failedSocials() -  only gets executed when there's an error in fetching the data from the API.<br/>
+       fetchSocials() - This function is disptached when the fetchReports() begins to execute.<br/>
+       savingEditedSocial() - <br/>
+       editSocialFailed() - gets called when there's an error whilst saving the edited social <br/>
+       editSaved() - returns a boolean indicating the successful save of the data.<br/>
+       
+  * Constants<br/>
+     These are the various action types expecting to take place in the process of retreiving and saving data.<br/>
+     
+  * Reducers<br/>
+    These are pure functions that take an actions and the previous states of the application and returns the new state.
+    The action describes what happened and it is the reducer's job to return the new state based on that action which is returned fron the various actions in the actions folder.
+    
+  * Store <br/>
+    The Redux store is the application state stored as objects. Whenever the store is updated, it will update the components subscribed to it. The store has the responsibility of storing, reading, and updating state.<br/>
+    
+ #### __tests__
+  All tests run on the various compnents are contained in this folder.
+ 
+ #### __mocks__
+  All mock data, functions and APIs used in the running the tests can be found in this folder.
   
-   
-   
+#### Challenges <div name='challenges'/>
 
 #### Contributing <div name='contributing'/>
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
