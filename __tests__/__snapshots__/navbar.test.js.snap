@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar matches snapshot 1`] = `
+<nav
+  className="navbar navbar-dark bg-dark fixed-top"
+  style={
+    Object {
+      "zIndex": 100,
+    }
+  }
+>
+  <a
+    className="navbar-brand ml-3"
+    href="/"
+  >
+    Kyso Frontend Project
+  </a>
+  <a
+    className="navbar-brand"
+    href="/dashboard"
+  >
+    Dashboard
+  </a>
+</nav>
+`;

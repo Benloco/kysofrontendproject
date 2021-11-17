@@ -4,6 +4,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  
+    background-color: #E9F4F7;
+
+    overflow-x: hidden;
 }
 
 a {
@@ -13,4 +17,88 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.img-h9{
+  height: 70px;
+}
+
+.shadow{
+  background-color: white;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+   rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 40px;
+  padding-left: 6%
+}
+
+@media(orientation:landscape){
+  .ml-3{
+    margin-left:20px;
+  }
+  .pads{
+    margin-left: 153px
+  }
+}
+
+@media(orientation:portrait){
+  .ml-3{
+    margin-left:0px;
+  }
+}
+
+@media only screen 
+  and (min-width: 834px) 
+  and (max-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .ml-3{
+      margin-left:25px;
+    }
+    .padsdash{
+      margin-left: 50px
+    }
+    .pads{
+      margin-left: 83px
+    }
+}
+
+.mb-20{
+  margin-bottom: 65px;
+}
+.mt-6{
+  margin-top: 10%;
+}
+
+.circle {
+  display: inline-table;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  
+  background-color: #bbb;
+/*   border-radius: 50%; */
+}
+
+.circle__content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #bbb;
+  width: fit-content;
+  height: fit-content;
+  margin-left:10px;
+}
+
+footer {
+  padding: 2rem 0;
+  background-color: #212529;  
+  color: whitesmoke;
+  position: relative;
+  bottom: 0px;
+  width: 100vw;
+}
+
+.indexContent{
+  background-color: white;
+  padding: 5%;
 }
