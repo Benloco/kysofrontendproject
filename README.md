@@ -133,9 +133,21 @@ Within the download you'll find the following directories and files, logically g
     Exports the Dashboard component
   
   *   reportsFilter.js <br/>
+      This exports the FilterReports function used on the main dashboard for filtering reports. This is intented to act as a search functionality.
+ #### footer folder
+    The footer.js file exports the footer component. The footer component is currently not in use.
+ 
+ ### loading
+     This is an activity indicator created to tell the user of an ongoing activity like saving or loading events.
+     It is exported from the loading.js file and import into several components in the app where it is needed.
+     
+ #### navbar folder
+   As the name suggests, it contains the navigation bar exported from the navbar.js file into the _document.js file.
+   The navbar component has the nav item dashboard which navigates you to the dashboard on click to view the reports.
    
   
-      
+   
+   
 
 #### Contributing <div name='contributing'/>
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
