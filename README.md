@@ -1,34 +1,113 @@
+## Frontend Project
+
+### Table of content
+
+- [About the Project](#about)
+- [Built with](#built)
+- [Getting started](#started)
+- [Prerequisites](#requisites)
+- [Installation](#install)
+- [Usage](#usage)
+- [App structure](#structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknoqledgements](#knowledge)
+
+
+#### About the project <div name='about'/>
+***
+This a responsive frontend project which renders data fetched from a json-server API. The data fetched are random reports stored in a json format. 
+
+#### Built with <div name='built'/>
+***
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+* Next.js
+* React
+* Redux
+* Boostrap
 
-First, run the development server:
+#### Getting started <div name='started'/>
+To get a local copy up and running follow these simple example steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+#### Prerequites <div name='requisites'/>
+Make sure to have the lastest version of node installed on your device. To install the lastest version of node, run
+* npm
+  ```
+   npm install npm@latest -g
+  ```
+  
+#### Installation <div name='install'/>
+1. Clone the repo either by downloading a zip form github to your local environment or with git clone (the recommended way).
+    ```
+      git clone https://github.com/Benloco/kysofrontendproject.git
+    ```
+  
+2. Install NPM packages (dependencies). run
+   ```
+    npm install
+   ```
+   
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Usage <div name='usage'/>
+##### Available Scripts
+* To run the app in development mode.
+   ```
+    npm run dev
+   ```
+Open http://localhost:3000 to view it in the browser. The default on which the app runs is 3000. This can however be changed.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+* To run all tests
+   ```
+    npm run test
+   ```
+   This runs the tests in an automated watch mode
+   
+* To start the json-server, run
+   ```
+    npm run jsonserver
+   ```
+   The json server is set to run on port 8000 in watch mode. The set port can be changed in package.json
+   
+* To run the app in production mode
+   ```
+    npm run start
+   ```
+ * Run to build from production
+   ```
+   npm run build
+   ```
+ 
+#### App Structure<div name='structure'/>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### Contributing <div name='contributing'/>
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
-## Learn More
+Fork the Project
+Create your Feature Branch `git checkout -b feature/AmazingFeature`<br/>
+Commit your Changes `git commit -m 'Add some AmazingFeature'`<br/>
+Push to the Branch `git push origin feature/AmazingFeature` <br/>
+Open a Pull Request
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### License <div name='license'/>
+Distributed under the MIT License. See LICENSE.txt for more information.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Contact <div name='contact'/>
+Ben Quarshie - [email](benquarshie2@gmail.com) && [linkedIn] (https://www.linkedin.com/in/ben-quarshie-a1369a100/) <br/>
 
-## Deploy on Vercel
+Project Link :  `git clone https://github.com/Benloco/kysofrontendproject.git`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Acknowdledgements <div name='knowledge'/>
+* Next.js
+* React
+* Fontawesome
+* Bootstrap
+* Redux
+* Jest
+* React testing Library
+* Reduxjs/toolkit
