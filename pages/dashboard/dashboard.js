@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect,memo, useCallback} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faMapMarkerAlt,faEnvelope,faCalendarDay, faEye, faStar, 
           faComments,faTags,faPen, faFlagCheckered, faSearch} from '@fortawesome/free-solid-svg-icons';
@@ -6,11 +6,11 @@ import {useDispatch,useSelector} from 'react-redux'
 import Loading from '../loading/loading'
 import Image from 'next/image'
 import { useRouter } from 'next/router';
-import {FilterReports} from './reportsFilter';
+import {FilterReports, FilterResults} from './reportsFilter';
 
 
 
- function ViewsAndComments({id,tags}){
+ export function ViewsAndComments({id,tags}){
    
 
     const socials= useSelector(state=>state.socials);
@@ -37,7 +37,7 @@ import {FilterReports} from './reportsFilter';
     )
 }
 
-export function NotAvailaable({item}){
+export function NotAvailable({item}){
 
     return (
          <div className="alert alert-secondary ml-3 mb-20 mt-5" >
@@ -47,30 +47,43 @@ export function NotAvailaable({item}){
     )
 }
 
- export default function Dashboard(){
-    
+ function Dashboard(){
+    const [result,setResults] = useState([]);
     const reports= useSelector(state=>state.reports);
-      
+  
    const router = useRouter();   
     
    const editReport=(id)=>{
     router.push(`/dashboard/${id}`)
    }
 
+   const filterCalled=useCallback((e)=>{
+    setResults( FilterReports(reports.reports,e.target.value));  
+   },[result])
+   
+
 
     return(
         <div className="col-md-10 col-lg-12 col-sm-12 offset-lg-1 offset-md-1 mt-6 padsdash mb-20">
              <div className="row ">
-                <h6 className ="col-6">Report Dashboard</h6>
+                <h6 className ="col-5 ml-3">Report Dashboard</h6>
+                <div className="col-md-4 col-sm-6">
+                  <input className="form-control" title="searchInput" placeholder="filter by title or description" onChange={filterCalled} />
+                </div>
                 
                 
              </div>
+          
+          
             
+
             <div className="row">
             {
                 reports.isLoading?<Loading title="fetching reports"/>:
+                result.length!=0?
+                <FilterResults result={result}/>:
            
-             reports.reports.map((report)=>{
+            reports.reports.map((report)=>{
                  return(
                     <div className="card col-xl-3 col-md-5 col-sm-12 mt-3 ml-3" key={report.id}>
                    
@@ -106,7 +119,7 @@ export function NotAvailaable({item}){
                             {
                                 report.description ? 
                                 <p className="card-text mt-3"> { report.description}</p>:
-                                <NotAvailaable item="description"/>
+                                <NotAvailable item="description"/>
 
                             }     
                             
@@ -133,6 +146,9 @@ export function NotAvailaable({item}){
                  }
               
             </div>
+             
         </div>
     )
  }
+
+ export default memo(Dashboard)

@@ -39,11 +39,17 @@ a {
   .pads{
     margin-left: 153px
   }
+  .mt-6{
+    margin-top: 10%;
+  }
 }
 
 @media(orientation:portrait){
   .ml-3{
     margin-left:0px;
+  }
+  .mt-6{
+    margin-top: 23%;
   }
 }
 
@@ -60,14 +66,15 @@ a {
     .pads{
       margin-left: 83px
     }
+    .mt-6{
+      margin-top: 11%;
+    }
 }
 
 .mb-20{
   margin-bottom: 65px;
 }
-.mt-6{
-  margin-top: 10%;
-}
+
 
 .circle {
   display: inline-table;

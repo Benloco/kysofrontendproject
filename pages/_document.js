@@ -1,4 +1,4 @@
-import Document, {Html,Head,Main,NextScript,ServerStyleSheets} from 'next/document'
+import Document, {Html,Head,Main,NextScript} from 'next/document'
 import Navbar from './navbar/navbar'
 import Footer from './footer/footer'
 

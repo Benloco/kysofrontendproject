@@ -26,3 +26,12 @@ export const handlers=[
         )
     })
 ]
+
+
+
+export const tasksHandlerException = rest.get(
+    baseUrl+'reports/bjdtphxCMw',
+    async (req, res, ctx) =>
+      res(ctx.status(500), ctx.json({ message: 'Deliberately broken request' }))
+  );
+  

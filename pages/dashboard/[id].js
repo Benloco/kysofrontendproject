@@ -3,7 +3,7 @@ import {useDispatch,useSelector} from 'react-redux'
 import Loading from '../loading/loading'
 import Image from 'next/image'
 import styles from './dashboard.module.scss'
-import {NotAvailaable} from './dashboard'
+import {NotAvailable} from './dashboard'
 import Edit from "./edit"
 import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome';
 import {faPen,faLink, faArrowLeft} from '@fortawesome/free-solid-svg-icons';
@@ -59,15 +59,15 @@ export default  function Report({report,social}){
                             </div>
                             <div className="row mt-2">
                             <strong  className="text-muted col-4">title:</strong>
-                            <h6 className="card-title col">{selectedReport.title?selectedReport.title:<NotAvailaable item="title"/>}</h6>
+                            <h6 className="card-title col">{selectedReport.title?selectedReport.title:<NotAvailable item="title"/>}</h6>
                             </div>
                             <div className="row mt-2">
                             <strong  className="text-muted col-4">main:</strong>
-                            <p className="card-text col">{selectedReport.main? selectedReport.main:<NotAvailaable item="main"/>}</p>
+                            <p className="card-text col">{selectedReport.main? selectedReport.main:<NotAvailable item="main"/>}</p>
                             </div>
                             <div className="row mt-2">
                             <strong  className="text-muted col-4">description:</strong>
-                            <p className="card-text col">{selectedReport.description? selectedReport.description:<NotAvailaable item="description"/>}</p>
+                            <p className="card-text col">{selectedReport.description? selectedReport.description:<NotAvailable item="description"/>}</p>
                         </div>
                        
                         <div className="row mt-5">
@@ -164,7 +164,7 @@ export default  function Report({report,social}){
                            </div>
                             
                            
-                        </div>:<NotAvailaable item="provider"/>
+                        </div>:<NotAvailable item="provider"/>
                         }
                       </div>
                     </div>
@@ -223,7 +223,7 @@ export default  function Report({report,social}){
                               </div>
                             
                            
-                           :<NotAvailaable item="owner"/>
+                           :<NotAvailable item="owner"/>
                         }
                 </div>
                </div>

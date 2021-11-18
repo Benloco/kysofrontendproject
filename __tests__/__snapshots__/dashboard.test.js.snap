@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard matches snapshot 1`] = `
+<div
+  className="col-md-10 col-lg-12 col-sm-12 offset-lg-1 offset-md-1 mt-6 padsdash mb-20"
+>
+  <div
+    className="row "
+  >
+    <h6
+      className="col-5 ml-3"
+    >
+      Report Dashboard
+    </h6>
+    <div
+      className="col-md-4 col-sm-6"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="filter by title or description"
+        title="searchInput"
+      />
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="card col-xl-3 col-md-5 col-sm-12 mt-3 ml-3"
+    >
+      <div
+        className="card-body"
+      >
+        <div
+          className="row"
+        >
+          <span
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "boxSizing": "border-box",
+                "display": "inline-block",
+                "height": "initial",
+                "margin": 0,
+                "maxWidth": "100%",
+                "opacity": 1,
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "relative",
+                "width": "initial",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "background": "none",
+                  "border": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": "initial",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "opacity": 1,
+                  "padding": 0,
+                  "width": "initial",
+                }
+              }
+            >
+              <img
+                alt=""
+                aria-hidden={true}
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style={
+                  Object {
+                    "background": "none",
+                    "border": 0,
+                    "display": "block",
+                    "height": "initial",
+                    "margin": 0,
+                    "maxWidth": "100%",
+                    "opacity": 1,
+                    "padding": 0,
+                    "width": "initial",
+                  }
+                }
+              />
+            </span>
+            <img
+              className="rounded-circle img-thumbnail col-2 img-h9 mt "
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+            <noscript>
+              <img
+                className="rounded-circle img-thumbnail col-2 img-h9 mt "
+                data-nimg="intrinsic"
+                decoding="async"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fd1kser01wv8mbw.cloudfront.net%2Fkyso-zip_CP5n4TTHy7-profile.jpg_52cf878dd985f55587ab821b952f6f79.zip&w=828&q=75"
+                srcSet="/_next/image?url=https%3A%2F%2Fd1kser01wv8mbw.cloudfront.net%2Fkyso-zip_CP5n4TTHy7-profile.jpg_52cf878dd985f55587ab821b952f6f79.zip&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fd1kser01wv8mbw.cloudfront.net%2Fkyso-zip_CP5n4TTHy7-profile.jpg_52cf878dd985f55587ab821b952f6f79.zip&w=828&q=75 2x"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": 0,
+                  }
+                }
+              />
+            </noscript>
+          </span>
+          <div
+            className="col-10"
+          >
+            <h6
+              className="card-title col-8"
+            >
+              acme
+            </h6>
+            <div
+              className=" mt-3"
+              style={
+                Object {
+                  "fontSize": "12px",
+                }
+              }
+            >
+              <span>
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-map-marker-alt fa-w-12 fa-1x "
+                  data-icon="map-marker-alt"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 384 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                  
+                Valencia, Spain
+                 
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-envelope fa-w-16 fa-1x "
+                  data-icon="envelope"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                 
+                kyle@kyso.io
+                  
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-calendar-day fa-w-14 fa-1x "
+                  data-icon="calendar-day"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h96c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-96zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                 
+                20 Apr 2021 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-12 mt-3"
+        >
+          <h5
+            className="card-title"
+          >
+            Why we could spend €1MM more on paid ads this quarter
+          </h5>
+          <p
+            className="card-text mt-3"
+          >
+             
+            A deep dive into how many subscriptions we can credit to paid ads prospecting given different attribtution variables.
+          </p>
+          <div
+            className="row mt-3"
+            style={
+              Object {
+                "fontSize": "14px",
+              }
+            }
+          >
+            <div
+              className="col-9"
+            >
+              <span>
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-eye fa-w-18 fa-1x "
+                  data-icon="eye"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                  
+                61
+                   
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-star fa-w-18 fa-1x "
+                  data-icon="star"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                 
+                5
+                    
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-tags fa-w-20 fa-1x "
+                  data-icon="tags"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 640 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                 
+                4
+                     
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-comments fa-w-18 fa-1x "
+                  data-icon="comments"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                 
+                22
+              </span>
+            </div>
+            <button
+              className="ml-3 btn btn-secondary btn-sm col-2"
+              onClick={[Function]}
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-eye fa-w-18 "
+                data-icon="eye"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
