@@ -14,6 +14,7 @@
    -[redux](#redux)<br/>
    -[mocks](#mocks)<br/>
    -[tests](#test)<br/>
+- [Responsiveness](#responsive)
 - [challenges](#challenges)
 - [Contributing](#contributing)
 - [License](#license)
@@ -86,6 +87,7 @@ Open http://localhost:3000 to view it in the browser. The default on which the a
    ```
  
 #### App Structure<div name='structure'/>
+ ***
 Within the download you'll find the following directories and files, logically grouped. You'll see something like this:
 <p align="left">
   <img src="https://user-images.githubusercontent.com/74012997/142231859-c0b636e1-8de6-4d96-b5e1-0513ac2b7086.png" width="350" title="directory tree"/><br/>
@@ -203,9 +205,24 @@ Within the download you'll find the following directories and files, logically g
  #### test.utils.js
  It containa a method to render the jest component file
 This function is required since we need to add top wrapper component of next-router, redux & styled-components. Without adding this wrapper component, test cases will not run.
+   
+ #### Responsiveness<a id='responsive'/>
+   ***
+   The application is designed for mobile devices (phones, ipad pro, etc), deskstops and notebooks.<br/>
+   
+   <p float="left">
+   <img src="https://user-images.githubusercontent.com/74012997/142468747-44d18226-4c95-47f0-a7de-d9e4e2d805c0.png" title="view on iPad Pro" height='552' width="500"/>
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+   <img src="https://user-images.githubusercontent.com/74012997/142468767-a31f3a3c-8d98-4774-ba0e-94709605c9f7.png" title="view on iPhone X" width="300" />
+   </p>
+   <br/>
+   
 #### Challenges <div name='challenges'/>
+   ***
 
 #### Contributing <div name='contributing'/>
+   ***
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
@@ -218,15 +235,18 @@ Open a Pull Request
 
 
 #### License <div name='license'/>
+   ***
 Distributed under the MIT License. See LICENSE.txt for more information.
 
 #### Contact <div name='contact'/>
+   ***
 Ben Quarshie - [email](benquarshie2@gmail.com) && [linkedIn](https://www.linkedin.com/in/ben-quarshie-a1369a100/) <br/>
 
 Project Link :  `git clone https://github.com/Benloco/kysofrontendproject.git`
 
 
 #### Acknowdledgements <div name='knowledge'/>
+   ***
 * Next.js
 * React
 * Fontawesome
